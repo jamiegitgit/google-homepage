@@ -1,0 +1,2 @@
+My first html/css project.
+I recreated the Google homepage (in looks only). I had difficulty figuring out how to make the bottom bar extend all the way across (it is a background color of an element.) I sucessfully got the text in all four corners to stay attached to the corners even when the browser changed size. I learned that the level you are working at (ex:ul vs a group of li), your boxes may turn out to be in very different places even if your subject is the same.

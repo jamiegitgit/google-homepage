@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.left,
+.right {
+    padding: 15px 10px;
+    font-size: .85em;
+    margin-top: 5px;
+}
+
+
+.left li:hover,
+.right li:hover {
+    text-decoration: underline;
+
+}
+.left{
+  /*  float: left; */
+    position: absolute;
+    top: 0;
+}
+
+.right{
+    /* float: right; */
+    position: absolute;
+    top: 0;
+    right: 0%; 
+    background-image: url("img/appsgrey.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 120px center;
+}
+
+.sign-in {
+    color: white;
+    background-color: rgb(14, 159, 179);
+    border-radius: 10%;
+    font-weight: bold;
+    padding: 7px 10px;
+
+}
+.apps {
+   visibility: hidden;
+}
+
+.google {
+    margin: auto;
+    margin-top: 200px;
+    padding: 0;
+    display: block;
+    height: 90px;
+}
+.full-form {
+    margin:auto;
+    width: 570px;
+    border: 1px rgb(236, 234, 234) solid;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(212, 211, 211);
+}
+
+input {
+    display: inline-block;
+    width: 520px;
+    border: none;
+    
+}
+input:focus {
+    outline:none;
+}
+
+.search,
+.lucky {
+    background-image: linear-gradient(#f2f2f2, #e9e7e7);
+    padding: 10px;
+    font-weight: bold;
+    margin: 2px;
+    font-size: .8em;
+}
+.search:hover,
+.lucky:hover {
+    /* border: rgb(185, 184, 184) solid 1px; */
+    color:black;
+    box-shadow: 0 0 1px 1px rgb(182, 181, 181);
+}   
+
+.search-buttons{
+  
+    width: 330px;
+    padding: 20px;
+    display: block;
+    /* margin: auto; */
+    margin: 10px auto;
+    
+    /* overflow: hidden; */
+}
+
+footer {
+    background-color:red;
+}
+
+footer ul {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    font-size: .85em;
+    padding: 0;
+    /* background-color: red; */
+}
+
+footer li {
+    padding: 0 10px;
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+.b-right {
+    right:10px;
+    
+}
+.full {
+    width:99%;
+    background-color:rgb(240, 236, 236);
+    margin: 0;
+    border-top: 1px rgb(221, 221, 223) solid;
+    padding: 12px 0;
+    z-index: -3;
+}
